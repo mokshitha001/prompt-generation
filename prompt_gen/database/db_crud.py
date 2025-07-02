@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from datetime import datetime
 from models. models import User, Chat
-from schemas import UserCreate, ChatCreate
+from database.schemas import UserCreate, ChatCreate
 
 
 def create_user(db: Session, user: UserCreate):
